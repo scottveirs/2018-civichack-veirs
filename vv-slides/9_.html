@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title></title>
+<style>
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+</style>
+</head>
+<body background = "images/orcaimagelite.jpg">
+<a id="forwardlink" href="10_.html"></a>
+<script type="text/javascript">
+var link = document.getElementById("forwardlink");
+
+document.onkeydown = function (e) {
+    if (e.keyCode == 32) {
+        link.click();
+    }
+};
+</script>
+
+
+<br><br>
+<div style="text-align: center;"><a href="8_.html" class="button">Previous Slide</a><a href="10_.html" class="button">Next Slide</a></div>
+</body>
+</html>
