@@ -36,15 +36,18 @@
     <!-- Begin slides. Just make elements with a class of slide. -->
 
     <section class="slide">
-      <center>
-      <h2>Orcasound -- Listen for Whales</h2>
-      <img src="content/orca-ferry.png">
-      <h3>Scott and Val Veirs, Orcasound Hydrophone Network</h3>
-      <h3>Civic Hackathon, September 22, 2018</h3>
-      <audio controls>
-            <source src="content/clear-calls-clicks.mp3" type="audio/mpeg">
-      </audio>
-      </center>
+      	<center>
+	      	<h2>Orcasound -- Listen for Whales</h2>
+	      	<img src="content/orca-ferry.png">
+	      	<h3>Scott and Val Veirs, Orcasound Hydrophone Network</h3>
+	      	<h4>Civic Hackathon, September 22, 2018</h4>
+	      	<div>
+	      		<audio controls>
+	            <source src="content/clear-calls-clicks.mp3" type="audio/mpeg">
+	      		</audio>
+			</div>
+	  		Slides at: <a href="http://orcasound.net/data/talks/2018-civichack-veirs">orcasound.net/data/talks/</a>
+  		</center>
     </section>
 
     <section class="slide">
@@ -59,7 +62,10 @@
   	<h3>15 years of citizen scientists listening for whales in the Salish Sea</h3>
   	<div>
    	Thanks to all the backers of the <a href="https://www.kickstarter.com/projects/sveirs/orcasound-listen-for-whales">2017 Kickstarter</a>, plus our app key developers/designers to date:<br>
-   Paul Cretu, Skander Mzali, Steve Hicks, Tyler Crisafulli, Nóra Mészáros, and Liam Reese
+   	Paul Cretu, Skander Mzali, Steve Hicks, Tyler Crisafulli, Nóra Mészáros, and Liam Reese<br>
+   	<center>
+   	<a href="dev.orcasound.net">Beta-test at dev.orcasound.net!</a>
+	</center>
 	</div>
     </section>
 
@@ -82,7 +88,8 @@
   		<li>Integrate machine learning approach and products into Orcasound app
   			<ol>
   				<li>Orientation to the app, audio data scheme, and <a href="https://github.com/orcasound/orcasite">Orcasite Git repository</a> (Backend is an Elixir app using the Phoenix framework. The Phoenix app serves a React app.)
-  				<li>Discuss how algorithmic and human detections (Activity button presses) should be visualized and generate notificaitons (moderated or automated)
+  				<li>Discuss how algorithmic and human detection (Activity button presses) and classification could work synergistically
+  				<li>Implement integration, including visualization and notifications (moderated or automated)
         </ul>
     </section>
 
